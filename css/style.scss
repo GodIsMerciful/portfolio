@@ -848,6 +848,13 @@ html
       width:90% !important;
     }
   }
+  @media screen and(max-width:495px)
+  {
+    #title 
+    {
+      margin-top: 23%;
+    }
+  }
   @media screen and(max-width: 428px)
   {
       nav ul li
