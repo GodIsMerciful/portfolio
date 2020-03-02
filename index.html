@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>www.vanja-veapi.com</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="If you need a website or graphic design. You are on the right place! Vanja Veapi is young end perspective front-end developer.">
+    <meta name="keywords" content="Portfolio,Frontend developer,graphic design,HTML,CSS,JavaScript">
+    <meta name="author" content="Vanja Veapi">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.min.css'>
+    <link rel="icon" type="image/x-icon" href="logo.ico"/>
+    <link href="aos/aos.css" rel="stylesheet" />
+    <script src='js/main.js'></script>
+    <script src="https://kit.fontawesome.com/3b797f2eda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#top-header"><i onclick="topFunction()" id="myButton" class="fas fa-chevron-up" title="Go to top"></i></a>
+        <div class="boja"></div>
+        <div id="top-header">
+            <div id="jedan" class="blok"><img src="img/logo.png" alt="logo" width="120"/></div> <!--Logo-->
+            <nav class="blok">
+                <ul>
+                    <li class="other"><a href="#top-header">Home</a></li>
+                    <li class="other"><a href="#aboutMe">About</a></li>
+                    <li class="other"><a href="#region">Skills</a></li>
+                    <li class="other"><a href="#slike">Portfolio</a></li>
+                    <li class="other"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="logo" class="logo">
+            <img src="img/Profilna2.png" alt="Profile Picture" width="250"/>
+        </div>
+
+        <div id="title">
+            <h1 class="flex" id="name">Vanja Veapi</h1>
+            <!--<div class="slide-bottom"><h2 class="flex" id='subtitle'>Front-End Developer</h2></div>-->
+        </div>
+    </header>
+    <div id="aboutMe">
+        <h3 class="naslov" data-aos="fade-right">About</h3>
+        <div class="tekst" data-aos="fade-right">
+            <h3>Vanja Veapi is Front-End Developer from Serbia. He is 20 years old. In addition, he has knowledge of graphic design, video editing and photography.</h3>
+        </div>
+    </div>
+    <main>
+        <div id="region">
+            <div id="skils">
+            <h3>Skills</h3>
+            </div>
+            <div id='drugi' class="sadrzaj">
+                <i class="fas fa-pencil-ruler"></i>
+                <h4>Graphic designer</h4>
+                <p>Three years of experience in graphic design. I designed logos, posters, flyers, etc...</p>
+                <h5>Design tools</h5>
+                <ul class="graphicDesign">
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Corel Draw</li>
+                    <li>Inkscape</li>
+                    <li>GIMP</li>
+                </ul>
+            </div>
+            <div id='prvi' class="sadrzaj">
+                <i class="fas fa-laptop-code"></i>
+                <h4>Front-end Developer</h4>
+                <p>One years of experience in programming. I enjoy making websites, application and video games the most.</p>
+                <h5>Developer tools</h5>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>SASS/LESS</li>
+                    <li>JavaScript</li>
+                    <li>C/C++</li>
+                    <li>C#</li>
+                    <li>Construct2</li>
+                </ul>
+            </div>
+            <div id='treci' class="sadrzaj">
+                <i class="fas fa-camera"></i>
+                <h4>Photographer</h4>
+                <p>Two years of experinece in photography. I like to photo parties, sports events, etc.</p>
+                <h5>Equipment</h5>
+                <ul class="graphicDesign">
+                    <li>Lens 35mm</li>
+                    <li>Nikon D3300</li>
+                    <li>Lens 18-55mm</li>
+                    <li>Adobe Lightroom</li>
+                </ul>
+            </div>
+            <!--<div id='cetvrti' class="sadrzaj"></div>-->
+        </div>
+    </main>
+    <div id="portfolio">
+        <div id="slike">
+            <a href="https://godismerciful.github.io/Arabic-countries/index.html"><figure>
+                <img class="images" src="img/portfolio/arabCountries.jpg" alt="Arabic Countires" width="500"/>
+                <div class="overlay"><p class="text">Arabic countries</p></div>
+            </figure></a>
+            <a href="#"><figure>
+                <img class="images" src="img/portfolio/portfolioSite.jpg" alt="Portfolio" width="500"/>
+                <div class="overlay"><p class="text">Portfolio (Responsive)</p></div>
+            </figure></a>
+            <figure>
+                <img class="images" src="img/portfolio/comingSoon.jpg" alt="Hour glass" width="500"/>
+                <div class="overlay"><p class="text">Soon...</p></div>
+            </figure>
+        </div>
+    </div>
+    <div id="contact">
+        <div id="left-contact" data-aos="fade-right">
+            <h6>Contact</h6>
+        </div>
+    
+        <div id="forma" data-aos="fade-up">
+            <form action="1.php" method="POST">
+                <table>
+                <tr><td><input type="text" id="firstName" name="firstName" placeholder="First name" class="margin-form inputs" required/></td></tr>
+                <tr><td><input type="text" id="lastName" name="lastName" placeholder="Last name" class="margin-form inputs" required/></td></tr>
+                <tr><td><input type="email" id="email" name="email" placeholder="Email" class="margin-form inputs" required/></td></tr>
+                <tr><td><textarea placeholder="Message" name="message" rows="6" cols="50" spellcheck="false" class="margin-form"></textarea></td></tr>
+                <tr><td class="pos-center"><input type="submit" value="Send" class="button"/></td></tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-tekst">
+            <h6 class="up">COPYRIGHT &copy; 2020 Vanja Veapi.</h6>
+            <h6 class="down">All right reserved.</h6>
+        </div>
+        <div id="icons">
+            <a href="https://www.facebook.com/vanja.veapi"><i class="fab fa-facebook-f footer"></i></a>
+            <a href="https://www.instagram.com/vanja.veapi/"><i class="fab fa-instagram footer"></i></a>
+            <a href="https://www.behance.net/vanjaveapi99"><i class="fab fa-behance footer"></i></a>
+            <a href="#"><i class="fas fa-sitemap footer"></i></a>
+            <a href="#"><i class="fab fa-sass footer"></i></a>
+        </div>
+    </footer>
+    <script src="aos/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init({
+            duration: 3000,
+        });
+    </script>
+</body>
+</html>
