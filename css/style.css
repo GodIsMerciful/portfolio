@@ -640,6 +640,10 @@ footer .up, footer .down {
   color: #55c5ef;
 }
 
+#icons .css3 {
+  font-size: 40px;
+}
+
 .footer {
   width: 27%;
   font-size: 25px;
@@ -846,7 +850,13 @@ footer .up, footer .down {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 600px) {
+  footer {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 420px) {
   nav ul li {
     padding: 0 10px;
   }
@@ -858,12 +868,13 @@ footer .up, footer .down {
     margin-left: 10px;
   }
   footer {
-    height: 430px;
+    height: 320px;
   }
   #icons {
     width: 100%;
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

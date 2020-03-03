@@ -607,13 +607,16 @@ html
         background: var(--bela);
         color: $cyan;
       }
-      
     }
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     height: 100px;
+    .css3
+    {
+      font-size:40px;
+    }
   }
   .footer
   {
@@ -849,7 +852,14 @@ html
       margin-top: 30%;
     }
   }
-  @media screen and(max-width: 428px)
+  @media screen and(max-width:600px)
+  {
+    footer
+    {
+      height:270px
+    }
+  }
+  @media screen and(max-width: 420px)
   {
       nav ul li
       {
@@ -866,12 +876,12 @@ html
       }
       footer
       {
-        height:430px;
+        height:320px;
       }
       #icons
       {
         width: 100%;
-        display: grid;
+        display: flex;
       }
   }
 
