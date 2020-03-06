@@ -830,9 +830,6 @@ footer .up, footer .down {
   #myButton {
     right: 3%;
   }
-  .overlay {
-    height: 95%;
-  }
 }
 
 @media screen and (max-width: 535px) {
