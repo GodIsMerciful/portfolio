@@ -786,6 +786,9 @@ footer .up, footer .down {
   #portfolio #slike figure {
     margin-right: 0;
   }
+  .overlay {
+    height: 96%;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -826,6 +829,9 @@ footer .up, footer .down {
   }
   #myButton {
     right: 3%;
+  }
+  .overlay {
+    height: 94.5%;
   }
 }
 
@@ -922,6 +928,12 @@ footer .up, footer .down {
   }
   #name {
     font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 265px) {
+  #region li {
+    font-size: 23px;
   }
 }
 

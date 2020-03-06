@@ -779,6 +779,10 @@ html
     {
       margin-right: 0;
     }
+    .overlay
+    {
+      height: 96%;
+    }
   }
   
 
@@ -824,6 +828,10 @@ html
     {
       right:3%;
     }
+    .overlay
+    {
+      height: 94.5%;
+    }
   }
   
   @media screen and(max-width: 535px)
@@ -859,7 +867,7 @@ html
       height:270px
     }
   }
-  @media screen and(max-width: 420px)
+  @media screen and (max-width: 420px)
   {
       nav ul li
       {
@@ -885,7 +893,7 @@ html
       }
   }
 
-  @media screen and(max-width: 380px)
+  @media screen and (max-width: 380px)
   {
       figure img 
       {
@@ -933,7 +941,7 @@ html
         font-size:18px;
       }
   }
-  @media screen and(max-width:285px)
+  @media screen and (max-width:285px)
   {
     figure img 
       {
@@ -944,7 +952,14 @@ html
         font-size: 45px;
       }
   }
-  @media screen and(max-width:255px)
+  @media screen and (max-width: 265px)
+  {
+    #region li 
+    {
+      font-size:23px
+    }
+  }
+  @media screen and (max-width:255px)
   {
     figure img
     {
